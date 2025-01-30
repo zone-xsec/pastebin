@@ -1,0 +1,214 @@
+body {
+    background: #1c1f22;
+    color: #d9d9d9;
+}
+
+.paste-name-input::placeholder {
+    color: #F2F2F2;
+}
+
+.icon-menu {
+    font-size: 20px;
+    background-color: #202429;
+    /* border-color: black !important; */
+    /* border-width: 6px !important; */
+    border-color: #32373b #32373b0e #181a1d !important;
+    padding-bottom: 3px !important;
+}
+
+.icon-save {
+    background-color: #129e5d !important;
+    border-color: #53eca5 #32373b0e #181a1d !important;
+    padding-bottom: 3px !important;
+}
+
+.navbar {
+    background-color: #141618d8;
+}
+
+nav select {
+    width: 175px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.raw-input {
+    background: #23272b;
+}
+
+.raw-input code {
+    // font-size: 16px;
+    font-size: 0.91rem;
+}
+
+.raw-input pre {
+    margin-top: 3px;
+}
+
+.raw-input span {
+    // font-size: 16px;
+    font-size: 0.91rem;
+}
+
+.mobile-menu a {
+    font-size: 1rem !important;
+    padding-top: 6px !important;
+}
+
+.sv {
+    padding-bottom: 10px !important;
+}
+
+.mobile-menu li {
+    background-color: #1c1f22;
+}
+
+.p-error {
+    font-size: 0.87rem;
+}
+
+.p-error div {
+    background: #440909;
+    color: #dddddd;
+}
+
+.p-error a {
+    color: #00aaff;
+}
+
+.p-error_401 div {
+    background-color: #36383b
+}
+
+.loader-div {
+    width: 230px !important;
+}
+
+.progress-bar {
+    background-color: #23272b !important;
+}
+
+nav input {
+    color: #f2f2f2 !important;
+    // outline: none;
+    // transition: 0.3s;
+}
+
+/* Untuk scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Lebar scrollbar */
+}
+
+/* Untuk bagian latar belakang scroll bar */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Untuk bagian pegangan scroll bar (thumb) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* border-radius: 5px; */
+}
+
+/* Untuk bagian pegangan scroll bar saat dihover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    nav input {
+        width: 300px !important;
+        /* background: blue !important; */
+    }
+
+    body {
+        background-color: #23272b !important;
+    }
+
+    .loader-div {
+        width: 30vw !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    nav input {
+        width: 100% !important;
+        /* background: red !important; */
+    }
+}
+
+.lines {
+    color: darkgrey;
+}
+
+.border-color {
+    border-color: #a9a9a98a !important;
+}
+
+
+.spinner {
+    width: 70.4px;
+    height: 70.4px;
+    animation: spinner-y0fdc1 2.8s infinite ease;
+    transform-style: preserve-3d;
+ }
+ 
+ .spinner > div {
+    background-color: rgba(63,63,77,0.2);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border: 3.5px solid #71767a;
+ }
+ 
+ .spinner div:nth-of-type(1) {
+    transform: translateZ(-35.2px) rotateY(180deg);
+ }
+ 
+ .spinner div:nth-of-type(2) {
+    transform: rotateY(-270deg) translateX(50%);
+    transform-origin: top right;
+ }
+ 
+ .spinner div:nth-of-type(3) {
+    transform: rotateY(270deg) translateX(-50%);
+    transform-origin: center left;
+ }
+ 
+ .spinner div:nth-of-type(4) {
+    transform: rotateX(90deg) translateY(-50%);
+    transform-origin: top center;
+ }
+ 
+ .spinner div:nth-of-type(5) {
+    transform: rotateX(-90deg) translateY(50%);
+    transform-origin: bottom center;
+ }
+ 
+ .spinner div:nth-of-type(6) {
+    transform: translateZ(35.2px);
+ }
+ 
+ @keyframes spinner-y0fdc1 {
+    0% {
+       transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+    }
+ 
+    50% {
+       transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+    }
+ 
+    100% {
+       transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+    }
+ }
